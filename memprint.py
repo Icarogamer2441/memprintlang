@@ -143,6 +143,12 @@ def interpret(code):
                             print(">", end="")
                         elif memory == 61:
                             print("<", end="")
+                        elif memory == 62:
+                            print("(", end="")
+                        elif memory == 63:
+                            print(")", end="")
+                        elif memory == 64:
+                            print("^", end="")
                     elif token == "%":
                         print(memory)
         except IndexError:
