@@ -1,7 +1,7 @@
 # comment!
 # memory starts in number 26 (or the position 26)
 # a is in 26 (the current memory) and z in 1.
-# the memory has the positions from 1 to 61
+# the memory has the positions from 1 to 64
 # * add 5 to memory
 # ! remove 5 to memory
 # + add 1 to memory
