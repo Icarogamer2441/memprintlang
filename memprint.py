@@ -3,6 +3,7 @@ import sys
 def interpret(code):
     lines = code.split("\n")
     memory = 26
+    inp = [""]
 
     for line in lines:
         tokens = list(line)
@@ -151,15 +152,21 @@ def interpret(code):
                             print("^", end="")
                     elif token == "%":
                         print(memory)
+                    elif token == "@":
+                        inp[0] = input()
+                    elif token == ".":
+                        print(inp[0], end="")
         except IndexError:
             print("", end="")
 
 if __name__ == "__main__":
+    version = "1.1"
     if len(sys.argv) == 1:
+        print(f"memprint version: {version}")
         print(f"Usage: {sys.argv[0]} <file>")
     else:
         if sys.argv[1].endswith(".mempr"):
             with open(sys.argv[1], "r") as f:
                 interpret(f.read())
         else:
-            print("Use .lemem file extension")
+            print("Use .mempr file extension")
