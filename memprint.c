@@ -60,7 +60,7 @@ void interpret(char* code) {
                     case 36: printf("&"); break;
                     case 37: printf("{"); break;
                     case 38: printf("}"); break;
-                    case 39: printf("_"); break;
+                    case 39: printf("\%"); break;
                     case 40: printf("["); break;
                     case 41: printf("]"); break;
                     case 42: printf("="); break;
