@@ -8,6 +8,8 @@
 # - remove 1 to memory
 # & prints the letter in memory position
 # % prints the memory position (memory number)
+# @ creates a input
+# . prints the input value
 # now a hello world
 !!+++&
 +++&
@@ -20,4 +22,11 @@
 *+&
 **--&
 *+&
+# new line
 -&
+# input
+@
+# print the input
+.
+# newline again
+&
