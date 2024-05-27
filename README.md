@@ -3,3 +3,6 @@ an esoteric programming language made to just print messages and be difficult, i
 
 ## playground
 playground link: https://icarogamer2441.github.io/memprplay/
+
+## documentation
+documentation link: https://icarogamer2441.github.io/memprdocs/
